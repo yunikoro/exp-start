@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "pm2-start": "pm2 start ecosystem.config.js",
+    "pm2-stop": "pm2 stop ecosystem.config.js",
+    "pm2-restart": "pm2 restart ecosystem.config.js"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
@@ -11,7 +14,9 @@
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.15.5",
+    "log4js": "^2.5.2",
     "morgan": "~1.9.0",
+    "pmx": "^1.5.6",
     "serve-favicon": "~2.4.5"
   }
 }
