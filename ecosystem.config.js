@@ -6,7 +6,7 @@ module.exports = {
   apps : [
     {
       name      : 'EXP-START',
-      script    : 'app.js',
+      script    : 'bin/www',
       out_file  : 'out.log',
       env: {
         COMMON_VARIABLE: 'true'
@@ -21,7 +21,6 @@ module.exports = {
    * Deployment section
    * http://pm2.keymetrics.io/docs/usage/deployment/
    */
-
 /*
   deploy : {
     production : {
