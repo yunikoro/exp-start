@@ -7,7 +7,12 @@ module.exports = {
     {
       name      : 'EXP-START',
       script    : 'bin/www',
-      out_file  : 'out.log',
+      watch     : true,
+
+      error_file: 'err.log',
+      out_file: 'out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm Z',
+
       env: {
         COMMON_VARIABLE: 'true'
       },
