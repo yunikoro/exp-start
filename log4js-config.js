@@ -5,7 +5,7 @@ log4js.configure({
         everything: { type: 'file', filename: 'all-the-logs.log'}
     },
     categories: {
-        default: { apenders: ['everything'], level: 'debug'}
+        default: { appenders: ['everything'], level: 'debug'}
     }
 });
 
