@@ -9,4 +9,4 @@ log4js.configure({
     }
 });
 
-modules.exports = log4js;
+module.exports = log4js;
