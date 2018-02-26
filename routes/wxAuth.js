@@ -13,7 +13,7 @@ const couponList = [
         coupon_base_amount: 30.00,
         user_id: 5095,
         valid_end_time: 1530415653,
-        rule: '不可用于特价商品， 一次只能使用一张'
+        explain: '不可用于特价商品， 一次只能使用一张'
     },
     {
         id: 11,
@@ -24,7 +24,7 @@ const couponList = [
         coupon_base_amount: 30.00,
         user_id: 5095,
         valid_end_time: 1530615653,
-        rule: '不可用于特价商品， 一次只能使用一张'
+        explain: '不可用于特价商品， 一次只能使用一张'
     },
     {
         id: 12,
@@ -35,7 +35,7 @@ const couponList = [
         coupon_base_amount: 0.01,
         user_id: 5095,
         valid_end_time: 1534495693,
-        rule: '不可用于特价商品， 一次只能使用一张'
+        explain: '不可用于特价商品， 一次只能使用一张'
     },
     {
         id: 13,
@@ -46,7 +46,7 @@ const couponList = [
         coupon_base_amount: -1,
         user_id: 5095,
         valid_end_time: 1530492653,
-        rule: '不可用于特价商品， 一次只能使用一张'
+        explain: '不可用于特价商品， 一次只能使用一张'
     },
 ];
 
