@@ -7,7 +7,7 @@ module.exports = {
     {
       name      : 'EXP-START',
       script    : 'bin/www',
-      watch     : true,
+      watch     : ['routes'],
 
       error_file: 'err.log',
       out_file: 'out.log',
