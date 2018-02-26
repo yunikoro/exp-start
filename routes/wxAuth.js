@@ -8,6 +8,7 @@ router.post('/auth', function(req, res) {
 });
 
 router.all('/getcoupon', function (req, res) {
+    logger.debug('in getcoupon');
     res.status(200)
        .jsonp({test: 'test'});
 })
