@@ -9,7 +9,7 @@ var log4js = require('log4js');
 });*/
 
 router.all('/getcoupon', function (req, res) {
-    log4js.debug('in getcoupon');
+    //log4js.debug('in getcoupon');
     res.status(200)
        .jsonp({test: 'test'});
 })
