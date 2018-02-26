@@ -12,7 +12,8 @@ const couponList = [
         coupon_amount: 10.00,
         coupon_base_amount: 30.00,
         user_id: 5095,
-        valid_end_time: 1530415653
+        valid_end_time: 1530415653,
+        rule: '不可用于特价商品， 一次只能使用一张'
     },
     {
         id: 11,
@@ -22,7 +23,8 @@ const couponList = [
         coupon_amount: 0.5,
         coupon_base_amount: 30.00,
         user_id: 5095,
-        valid_end_time: 1530615653
+        valid_end_time: 1530615653,
+        rule: '不可用于特价商品， 一次只能使用一张'
     },
     {
         id: 12,
@@ -30,9 +32,10 @@ const couponList = [
         sku_alias: '',
         manzeng_good_id: null,
         coupon_amount: 10.00,
-        coupon_base_amount: 30.00,
+        coupon_base_amount: 0.01,
         user_id: 5095,
-        valid_end_time: 1534495693
+        valid_end_time: 1534495693,
+        rule: '不可用于特价商品， 一次只能使用一张'
     },
     {
         id: 13,
@@ -42,7 +45,8 @@ const couponList = [
         coupon_amount: 0.5,
         coupon_base_amount: -1,
         user_id: 5095,
-        valid_end_time: 1530492653
+        valid_end_time: 1530492653,
+        rule: '不可用于特价商品， 一次只能使用一张'
     },
 ];
 
