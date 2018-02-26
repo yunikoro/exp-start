@@ -7,7 +7,10 @@ module.exports = {
     {
       name      : 'EXP-START',
       script    : 'bin/www',
-      watch     : ['routes'],
+      watch     : true,
+      watch_options : {
+        usePolling: true
+      },
 
       error_file: 'err.log',
       out_file: 'out.log',
