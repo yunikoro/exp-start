@@ -7,4 +7,9 @@ router.post('/auth', function(req, res) {
     res.send('hello world');
 });
 
+router.all('/getcoupon', function (req, res) {
+    res.status(200)
+       .jsonp({test: 'test'});
+})
+
 module.exports = router;
