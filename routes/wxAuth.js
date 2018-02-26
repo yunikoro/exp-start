@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var log4js = require('log4js');
+var logger = log4js.getLogger();
 
 /*router.post('/auth', function(req, res) {
     console.info('test log');
@@ -9,7 +10,7 @@ var log4js = require('log4js');
 });*/
 
 router.all('/getcoupon', function (req, res) {
-    //log4js.debug('in getcoupon');
+    logger.debug('in getcoupon');
     res.status(200)
        .jsonp({test: 'test'});
 })
