@@ -40,7 +40,7 @@ const couponList = [
     {
         id: 13,
         coupon_type: 6,
-        sku_alias: '小黄鸭',
+        sku_alias: '小黄鸡',
         manzeng_good_id: 52,
         coupon_amount: 0.5,
         coupon_base_amount: -1,
