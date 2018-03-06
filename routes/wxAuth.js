@@ -3,51 +3,111 @@ var router = express.Router();
 var log4js = require('log4js');
 var logger = log4js.getLogger();
 
-const couponList = [
+var couponList = [
     {
-        id: 10,
-        coupon_type: 3,
-        sku_alias: '',
-        manzeng_good_id: null,
-        coupon_amount: 10.00,
-        coupon_base_amount: 30.00,
-        user_id: 5095,
-        valid_end_time: 1530415653,
-        explain: '不可用于特价商品， 一次只能使用一张'
-    },
-    {
-        id: 11,
-        coupon_type: 4,
-        sku_alias: '',
-        manzeng_good_id: null,
-        coupon_amount: 0.5,
-        coupon_base_amount: 30.00,
-        user_id: 5095,
-        valid_end_time: 1530615653,
-        explain: '不可用于特价商品， 一次只能使用一张'
-    },
-    {
-        id: 12,
-        coupon_type: 2,
-        sku_alias: '',
-        manzeng_good_id: null,
-        coupon_amount: 10.00,
-        coupon_base_amount: 0.01,
-        user_id: 5095,
-        valid_end_time: 1534495693,
-        explain: '不可用于特价商品， 一次只能使用一张'
-    },
-    {
-        id: 13,
-        coupon_type: 6,
-        sku_alias: '小黄鸡',
-        manzeng_good_id: 52,
-        coupon_amount: 0.5,
-        coupon_base_amount: -1,
-        user_id: 5095,
-        valid_end_time: 1530492653,
-        explain: '不可用于特价商品， 一次只能使用一张'
-    },
+        id: 4,
+        couponSeq: 'MJ123456',
+        couponType: 3,
+        couponBaseAmount: 2.00,
+        couponAmount: 1.00,
+        couponDiscount: null,
+        couponChannel: 1001,
+        name: '2元满减券',
+        desc: '满2元可立减1元',
+        rule: [
+            {
+                ruleCode: 10,
+                ruleValue: '5',
+            }
+        ],
+        validEndTime: 123456789
+    }, {
+        id: 5,
+        couponSeq: 'MJ123456',
+        couponType: 3,
+        couponBaseAmount: 20.00,
+        couponAmount: 5.00,
+        couponDiscount: null,
+        couponChannel: 1001,
+        name: '5元满减券',
+        desc: '满20元可立减5元',
+        rule: [
+            {
+                ruleCode: 10,
+                ruleValue: '5',
+            }
+        ],
+        validEndTime: 123456789
+    }, {
+        id: 6,
+        couponSeq: 'MJ123456',
+        couponType: 3,
+        couponBaseAmount: 5.00,
+        couponAmount: 3.00,
+        couponDiscount: null,
+        couponChannel: 1001,
+        name: '3元满减券',
+        desc: '满5元可立减3元',
+        rule: [
+            {
+                ruleCode: 10,
+                ruleValue: '5',
+            }
+        ],
+        validEndTime: 123456789
+    }, {
+        id: 7,
+        couponSeq: 'MJ123456',
+        couponType: 3,
+        couponBaseAmount: 50.00,
+        couponAmount: 15.00,
+        couponDiscount: null,
+        couponChannel: 1001,
+        name: '2元满减券',
+        desc: '满50元可立减15元',
+        rule: [
+            {
+                ruleCode: 10,
+                ruleValue: '5',
+            }
+        ],
+        validEndTime: 123456789
+    }, {
+        id: 8,
+        couponSeq: 'ZQSKU123456',
+        couponType: 4,
+        couponBaseAmount: 30.00,
+        couponAmount: 0.00,
+        couponDiscount: 0.5,
+        couponChannel: 1001,
+        name: '2元满减券',
+        desc: '固定商品内可5折',
+        rule: [
+            {
+                ruleCode: 10,
+                ruleValue: '3',
+            }
+        ],
+        validEndTime: 123456789
+    }, {
+        id: 6,
+        couponSeq: 'ZQSKU123456',
+        couponType: 2,
+        couponBaseAmount: 0.01,
+        couponAmount: 5.00,
+        couponDiscount: null,
+        couponChannel: 1001,
+        name: '2元满减券',
+        desc: '5元立减券',
+        rule: [
+            {
+                ruleCode: 10,
+                ruleValue: '3',
+            }
+        ],
+        validEndTime: 123456789
+    }
+
 ];
 
 
@@ -61,8 +121,9 @@ router.all('/getcoupon', function (req, res) {
     logger.debug('in getcoupon');
     res.status(200)
        .json({
-           data: couponList,
-           code: 0
+           err_msg: 'success',
+           error_code: 0,
+           data: couponList
        });
 })
 
