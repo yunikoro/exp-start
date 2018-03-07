@@ -114,7 +114,7 @@ var couponList = [
         couponAmount: 5.00,
         couponDiscount: null,
         couponChannel: 1001,
-        name: '新用户立减券',
+        name: null,
         desc: '无门槛5元代金券',
         rule: [
             {
