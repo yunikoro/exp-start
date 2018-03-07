@@ -106,6 +106,40 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
+    }, {
+        id: 11,
+        couponSeq: 'LJ123456',
+        couponType: 2,
+        couponBaseAmount: 0.01,
+        couponAmount: 5.00,
+        couponDiscount: null,
+        couponChannel: 1001,
+        name: '新用户立减券',
+        desc: '无门槛5元代金券',
+        rule: [
+            {
+                ruleCode: 10,
+                ruleValue: '3',
+            }
+        ],
+        validEndTime: 123456789000
+    }, {
+        id: 12,
+        couponSeq: 'LJ123456',
+        couponType: 2,
+        couponBaseAmount: 0.01,
+        couponAmount: 2.00,
+        couponDiscount: null,
+        couponChannel: 1001,
+        name: '3号商品立减券',
+        desc: '3元代金券',
+        rule: [
+            {
+                ruleCode: 9,
+                ruleValue: '3',
+            }
+        ],
+        validEndTime: 123456789000
     }
 ];
 
