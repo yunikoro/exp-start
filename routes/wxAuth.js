@@ -12,12 +12,12 @@ var couponList = [
         couponAmount: 1.00,
         couponDiscount: null,
         couponChannel: 1001,
-        name: '2元满减券',
+        name: '新用户专享券',
         desc: '满2元可立减1元',
         rule: [
             {
                 ruleCode: 10,
-                ruleValue: '5',
+                ruleValue: '3',
             }
         ],
         validEndTime: 123456789
@@ -29,7 +29,7 @@ var couponList = [
         couponAmount: 5.00,
         couponDiscount: null,
         couponChannel: 1001,
-        name: '5元满减券',
+        name: null,
         desc: '满20元可立减5元',
         rule: [
             {
@@ -46,7 +46,7 @@ var couponList = [
         couponAmount: 3.00,
         couponDiscount: null,
         couponChannel: 1001,
-        name: '3元满减券',
+        name: '老司机特惠',
         desc: '满5元可立减3元',
         rule: [
             {
@@ -63,7 +63,7 @@ var couponList = [
         couponAmount: 15.00,
         couponDiscount: null,
         couponChannel: 1001,
-        name: '2元满减券',
+        name: '土豪特惠',
         desc: '满50元可立减15元',
         rule: [
             {
@@ -71,43 +71,42 @@ var couponList = [
                 ruleValue: '5',
             }
         ],
-        validEndTime: 123456789
+        validEndTime: 123456789000
     }, {
         id: 8,
         couponSeq: 'ZQSKU123456',
         couponType: 4,
-        couponBaseAmount: 30.00,
+        couponBaseAmount: null,
         couponAmount: 0.00,
-        couponDiscount: 0.5,
+        couponDiscount: 7,
         couponChannel: 1001,
-        name: '2元满减券',
-        desc: '固定商品内可5折',
+        name: 'id为6的商品特惠',
+        desc: '固定商品内可7折',
         rule: [
             {
-                ruleCode: 10,
-                ruleValue: '3',
+                ruleCode: 9,
+                ruleValue: '6',
             }
         ],
-        validEndTime: 123456789
+        validEndTime: 123456789000
     }, {
-        id: 6,
-        couponSeq: 'ZQSKU123456',
-        couponType: 2,
-        couponBaseAmount: 0.01,
+        id: 10,
+        couponSeq: 'ZQ123456',
+        couponType: 4,
+        couponBaseAmount: 30,
         couponAmount: 5.00,
-        couponDiscount: null,
+        couponDiscount: 5,
         couponChannel: 1001,
-        name: '2元满减券',
-        desc: '5元立减券',
+        name: null,
+        desc: '5折券',
         rule: [
             {
                 ruleCode: 10,
                 ruleValue: '3',
             }
         ],
-        validEndTime: 123456789
+        validEndTime: 123456789000
     }
-
 ];
 
 
