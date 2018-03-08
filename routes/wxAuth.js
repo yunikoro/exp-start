@@ -240,10 +240,10 @@ var goodsList = [
             {
                 content: "红鲤鱼绿鲤鱼与驴",
                 id: 10,
-                isDiscount: true,
+                isDiscount: false,
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
                 marketPrice: "2.00",
-                name: "车",
+                name: "绿鲤鱼",
                 num: 8,
                 price: "2.00"
             }
