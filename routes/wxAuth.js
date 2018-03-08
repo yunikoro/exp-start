@@ -222,10 +222,10 @@ var goodsList = [
                 id: 9,
                 isDiscount: false,
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
-                marketPrice: "8.30",
+                marketPrice: "10.00",
                 name: "爷爷牛肉干",
-                num: 1,
-                price: "8.30"
+                num: 3,
+                price: "10.00"
             },
             {
                 content: "没有黄曲霉",
@@ -299,10 +299,10 @@ var goodsList = [
                 id: 9,
                 isDiscount: false,
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
-                marketPrice: "8.30",
+                marketPrice: "10.00",
                 name: "爷爷牛肉干",
-                num: 1,
-                price: "8.30"
+                num: 3,
+                price: "10.00"
             },
             {
                 content: "没有黄曲霉",
