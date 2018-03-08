@@ -126,7 +126,7 @@ var couponList = [
     },*/ {
         id: 12,
         couponSeq: 'LJ123456',
-        couponType: 4,
+        couponType: 2,
         couponBaseAmount: 0.01,
         couponAmount: 2.00,
         couponDiscount: null,
