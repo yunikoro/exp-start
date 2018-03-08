@@ -89,7 +89,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    }/*, {
+    }, {
         id: 10,
         couponSeq: 'ZQ123456',
         couponType: 4,
@@ -106,7 +106,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    } *//* ,{
+    } ,/*{
         id: 11,
         couponSeq: 'LJ123456',
         couponType: 2,
@@ -123,7 +123,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    }*/, {
+    },*/ {
         id: 12,
         couponSeq: 'LJ123456',
         couponType: 2,
@@ -136,6 +136,23 @@ var couponList = [
         rule: [
             {
                 ruleCode: 9,
+                ruleValue: '7',
+            }
+        ],
+        validEndTime: 123456789000
+    }, {
+        id: 13,
+        couponSeq: 'ZQ123456',
+        couponType: 2,
+        couponBaseAmount: 10.00,
+        couponAmount: null,
+        couponDiscount: 7,
+        couponChannel: 1001,
+        name: '特殊司机7折券',
+        desc: '7折扣券',
+        rule: [
+            {
+                ruleCode: 10,
                 ruleValue: '7',
             }
         ],
