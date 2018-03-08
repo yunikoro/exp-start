@@ -143,7 +143,7 @@ var couponList = [
     }, {
         id: 13,
         couponSeq: 'ZQ123456',
-        couponType: 2,
+        couponType: 4,
         couponBaseAmount: 10.00,
         couponAmount: null,
         couponDiscount: 7,
