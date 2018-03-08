@@ -106,7 +106,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    }, {
+    } /* ,{
         id: 11,
         couponSeq: 'LJ123456',
         couponType: 2,
@@ -123,7 +123,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    }, {
+    }*/, {
         id: 12,
         couponSeq: 'LJ123456',
         couponType: 2,
@@ -131,12 +131,12 @@ var couponList = [
         couponAmount: 2.00,
         couponDiscount: null,
         couponChannel: 1001,
-        name: '3号商品立减券',
-        desc: '3元代金券',
+        name: '7号商品立减券',
+        desc: '2元代金券',
         rule: [
             {
                 ruleCode: 9,
-                ruleValue: '3',
+                ruleValue: '7',
             }
         ],
         validEndTime: 123456789000
