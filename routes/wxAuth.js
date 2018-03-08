@@ -224,7 +224,7 @@ var goodsList = [
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
                 marketPrice: "10.00",
                 name: "爷爷牛肉干",
-                num: 3,
+                num: 8,
                 price: "10.00"
             },
             {
@@ -244,7 +244,7 @@ var goodsList = [
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
                 marketPrice: "2.00",
                 name: "绿鲤鱼",
-                num: 8,
+                num: 64,
                 price: "2.00"
             }
 
