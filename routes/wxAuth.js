@@ -170,7 +170,7 @@ var goodsList = [
             {
                 content: "半价爆款",
                 id: 4,
-                idDiscount: true,
+                isDiscount: true,
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
                 marketPrice: "5.00",
                 name: "红牛·战马饮料/瓶",
@@ -180,7 +180,7 @@ var goodsList = [
             {
                 content: "喝了和驴一样狠",
                 id: 5,
-                idDiscount: false,
+                isDiscount: false,
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
                 marketPrice: "5.00",
                 name: "蓝驴·骡子饮料/瓶",
@@ -317,7 +317,7 @@ var goodsList = [
             {
                 content: "钙芝威化饼干",
                 id: 2,
-                idDiscount: true,
+                isDiscount: true,
                 img: "https://mgo.18jian.cn/uploads/2017-12-20/2017125a3a2936b0843.png",
                 marketPrice: "2.30",
                 name: "钙芝威化饼干",
@@ -327,7 +327,7 @@ var goodsList = [
             {
                 content: "维他奶+LIPO面包干",
                 id: 3,
-                idDiscount: true,
+                isDiscount: true,
                 img: "https://mgo.18jian.cn/uploads/2017-12-20/2017125a3a29fbba948.png",
                 marketPrice: "6.20",
                 name: "维他奶+LIPO面包干",
@@ -345,7 +345,7 @@ var goodsList = [
             {
                 content: "半价爆款",
                 id: 4,
-                idDiscount: true,
+                isDiscount: true,
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
                 marketPrice: "5.00",
                 name: "红牛·战马饮料/瓶",
@@ -355,7 +355,7 @@ var goodsList = [
             {
                 content: "喝了和驴一样狠",
                 id: 5,
-                idDiscount: false,
+                isDiscount: false,
                 img: "https://mgo.18jian.cn//uploads/2017-11-16/2017115a0ceea3f056e.png",
                 marketPrice: "5.00",
                 name: "蓝驴·骡子饮料/瓶",
