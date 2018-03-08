@@ -89,7 +89,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    }, {
+    }, /*{
         id: 10,
         couponSeq: 'ZQ123456',
         couponType: 4,
@@ -106,7 +106,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    } ,/*{
+    } ,*//*{
         id: 11,
         couponSeq: 'LJ123456',
         couponType: 2,
@@ -140,7 +140,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    }, {
+    }/*, {
         id: 13,
         couponSeq: 'ZQ123456',
         couponType: 4,
@@ -157,7 +157,7 @@ var couponList = [
             }
         ],
         validEndTime: 123456789000
-    }
+    }*/
 ];
 
 var goodsList = [
