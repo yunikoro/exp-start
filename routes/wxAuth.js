@@ -14,7 +14,7 @@ var couponList = [
         couponChannel: 1001,
         name: '新用户专享券',
         desc: '满2元可立减1元',
-        rule: [
+        list: [
             {
                 ruleCode: 10,
                 ruleValue: '3',
@@ -31,7 +31,7 @@ var couponList = [
         couponChannel: 1001,
         name: null,
         desc: '满20元可立减5元',
-        rule: [
+        list: [
             {
                 ruleCode: 10,
                 ruleValue: '5',
@@ -48,7 +48,7 @@ var couponList = [
         couponChannel: 1001,
         name: '老司机特惠',
         desc: '满5元可立减3元',
-        rule: [
+        list: [
             {
                 ruleCode: 10,
                 ruleValue: '5',
@@ -65,7 +65,7 @@ var couponList = [
         couponChannel: 1001,
         name: '土豪特惠',
         desc: '满50元可立减15元',
-        rule: [
+        list: [
             {
                 ruleCode: 10,
                 ruleValue: '5',
@@ -82,7 +82,7 @@ var couponList = [
         couponChannel: 1001,
         name: 'id为6的商品特惠',
         desc: '固定商品内可7折',
-        rule: [
+        list: [
             {
                 ruleCode: 9,
                 ruleValue: '6',
@@ -99,7 +99,7 @@ var couponList = [
         couponChannel: 1001,
         name: null,
         desc: '5折券',
-        rule: [
+        list: [
             {
                 ruleCode: 10,
                 ruleValue: '3',
@@ -116,7 +116,7 @@ var couponList = [
         couponChannel: 1001,
         name: null,
         desc: '无门槛5元代金券',
-        rule: [
+        list: [
             {
                 ruleCode: 10,
                 ruleValue: '3',
@@ -133,7 +133,7 @@ var couponList = [
         couponChannel: 1001,
         name: '7号商品立减券',
         desc: '2元代金券',
-        rule: [
+        list: [
             {
                 ruleCode: 9,
                 ruleValue: '7',
@@ -150,7 +150,7 @@ var couponList = [
         couponChannel: 1001,
         name: '特殊司机7折券',
         desc: '7折扣券',
-        rule: [
+        list: [
             {
                 ruleCode: 10,
                 ruleValue: '7',
