@@ -22,7 +22,7 @@ router.all('/allocate/findAll', function(req, res, next) {
         logger.debug('params', req.params)
         logger.debug('query', req.query)
         logger.debug('body', req.body)
-        //res.json(allAllocate)
+        res.json(allAllocate)
     })
 })
 
