@@ -7,7 +7,7 @@ module.exports = {
     {
       name      : 'EXP-START',
       script    : 'bin/www',
-      watch     : true,
+      watch     : false,
       watch_options : {
         usePolling: true
       },
