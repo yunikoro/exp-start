@@ -1,19 +1,20 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
 
-var index = require('./routes/index');
-var users = require('./routes/users');
-var auth = require('./routes/wxAuth');
-var scm = require('./routes/scm');
+const index = require('./routes/index');
+const users = require('./routes/users');
+const auth = require('./routes/wxAuth');
+const scm = require('./routes/scm');
+const report = require('./routes/report');
 
-var { pool } = require('./database.config'); 
-var log4js = require('./log4js-config');
+const { pool } = require('./database.config'); 
+const log4js = require('./log4js-config');
 
-var app = express();
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,7 +23,7 @@ app.set('view engine', 'ejs')  ;
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -30,6 +31,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/wechat', auth);
 app.use('/scm', scm);
+app.use('/report', report);
 
 
 // catch 404 and forward to error handler

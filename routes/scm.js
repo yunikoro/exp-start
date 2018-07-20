@@ -29,7 +29,7 @@ router.all('/allocate/search', function(req, res, next) {
 router.all('/allocate/boxDetail', function(req,res, next) {
     setImmediate(() =>{
         logger.debug('boxDetail -- query', req.query);
-        
+        boxDetail.boxSn = req.query.boxSn;
         const result =  {
             data: boxDetail,
             err_msg: 'success',
@@ -105,6 +105,12 @@ router.all('/scm-web/station/list', function(req, res, next) {
             error_code: 0,
         }
         res.json(result)
+    })
+})
+
+router.all('/driver/promotion/event_detail', function(req, res, next) {
+    setImmediate(() => {
+        logger.debug
     })
 })
 
